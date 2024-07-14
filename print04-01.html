@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="print-html" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,7 +18,7 @@
     />
     <link rel="stylesheet" href="gpt-tutor/assets/css/vendor/reset.css?v=1.0" />
     <link rel="stylesheet" href="gpt-tutor/assets/css/style.css" />
-    <link rel="stylesheet" href="gpt-tutor/assets/css/print-style.css" />
+    <link rel="stylesheet" href="gpt-tutor/assets/css/print-style.css?v=1.0" />
     <script src="gpt-tutor/assets/js/vendor/jquery-3.6.1.min.js"></script>
   </head>
   <style>
@@ -28,7 +28,7 @@
     }
   </style>
   <body class="print-body">
-    <div id="app">
+    <div id="appPrint">
       <!-- 판서용 지문 표지 -->
       <div class="print-wrapper type-print04">
         <div class="print-container type-writing">
@@ -106,5 +106,6 @@
       <!-- END 판서용 지문 표지 -->
     </div>
     <script src="gpt-tutor/assets/js/ui.js"></script>
+    <script src="gpt-tutor/assets/js/adjustPrintBodyHeight.js"></script>
   </body>
 </html>
